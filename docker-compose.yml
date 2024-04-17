@@ -6,10 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: bottlesite_container
+    container_name: santiago_container
     ports:
       - 80:80
     volumes:
       - ./:/app
-
-
